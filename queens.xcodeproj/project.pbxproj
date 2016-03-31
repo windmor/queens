@@ -15,6 +15,7 @@
 		3A4ECCEF1C9FF7920047AFEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4ECCED1C9FF7920047AFEF /* LaunchScreen.storyboard */; };
 		3A4ECCFA1C9FF7920047AFEF /* queensTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECCF91C9FF7920047AFEF /* queensTests.m */; };
 		3A4ECD051C9FF7920047AFEF /* queensUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECD041C9FF7920047AFEF /* queensUITests.m */; };
+		3A4ECD141C9FF7B70047AFEF /* NIBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4ECD131C9FF7B70047AFEF /* NIBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3A4ECD001C9FF7920047AFEF /* queensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = queensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A4ECD041C9FF7920047AFEF /* queensUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = queensUITests.m; sourceTree = "<group>"; };
 		3A4ECD061C9FF7920047AFEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A4ECD121C9FF7B70047AFEF /* NIBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIBoard.h; sourceTree = "<group>"; };
+		3A4ECD131C9FF7B70047AFEF /* NIBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3A4ECCE31C9FF7920047AFEF /* AppDelegate.m */,
 				3A4ECCE51C9FF7920047AFEF /* ViewController.h */,
 				3A4ECCE61C9FF7920047AFEF /* ViewController.m */,
+				3A4ECD121C9FF7B70047AFEF /* NIBoard.h */,
+				3A4ECD131C9FF7B70047AFEF /* NIBoard.m */,
 				3A4ECCE81C9FF7920047AFEF /* Main.storyboard */,
 				3A4ECCEB1C9FF7920047AFEF /* Assets.xcassets */,
 				3A4ECCED1C9FF7920047AFEF /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				3A4ECCE71C9FF7920047AFEF /* ViewController.m in Sources */,
 				3A4ECCE41C9FF7920047AFEF /* AppDelegate.m in Sources */,
 				3A4ECCE11C9FF7920047AFEF /* main.m in Sources */,
+				3A4ECD141C9FF7B70047AFEF /* NIBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

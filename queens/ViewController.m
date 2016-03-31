@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NIBoard.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NIBoard *board = [NIBoard new];
+    // set board size
+    [board setBoardWithSide:4];
+    [board setQueens];
 }
 
 - (void)didReceiveMemoryWarning {
